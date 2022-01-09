@@ -18,11 +18,12 @@ function Navbar({}: Props): ReactElement {
         <li>
           <Link href="/">
             <a className="font-bold text-gray-700">
-              <img
+              <div>Image</div>
+              {/* <img
                 src="/assets/Logo Light.png"
                 alt="Dean's Award"
                 className="w-20 h-20"
-              />
+              /> */}
             </a>
           </Link>
         </li>

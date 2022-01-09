@@ -11,13 +11,13 @@ function Footer({}: Props): ReactElement {
         <li>
           <Link href="/">
             <a className="font-bold text-gray-700">
-              <img
+              {/* <img
                 src="/assets/logo-draft.jpg"
-                alt="Dean's Award"
+                alt="Logo"
                 className="w-16 h-16"
-              />
+              /> */}
               <div className="font-light text-gray-500">
-                © {new Date().getFullYear()} Dean's Award FMUI
+                © {new Date().getFullYear()} Febrilian
               </div>
             </a>
           </Link>
