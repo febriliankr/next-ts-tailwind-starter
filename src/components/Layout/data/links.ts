@@ -1,7 +1,7 @@
 const links = [
-  { href: "/", label: "Home" },
-  { href: "/researches", label: "Researches" },
-  { href: "/livestream", label: "Livestream" },
+  { href: "/source", label: "Research Source" },
+  { href: "/services", label: "Services" },
+  { href: "/academy", label: "Research Academy" },
 ];
 
 export default links;

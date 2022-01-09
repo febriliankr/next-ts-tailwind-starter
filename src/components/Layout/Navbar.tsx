@@ -18,21 +18,20 @@ function Navbar({}: Props): ReactElement {
         <li>
           <Link href="/">
             <a className="font-bold text-gray-700">
-              <div>Image</div>
-              {/* <img
-                src="/assets/Logo Light.png"
-                alt="Dean's Award"
-                className="w-20 h-20"
-              /> */}
+              <img
+                src="/assets/Logo/LogoHorizontal.svg"
+                alt="ReplaceTemplateTitle"
+                className=""
+              />
             </a>
           </Link>
         </li>
-        <ul className="items-center justify-between hidden max-w-xl mx-auto md:flex">
+        <ul className="items-center justify-between hidden max-w-xl ml-auto md:flex">
           {links.map(({ href, label }) => (
             <li key={`${href}${label}`}>
               <Link href={href}>
                 <a
-                  className={`mr-4 text-2xl font-primary text-gray-700 hover:text-gray-400 ${
+                  className={`mr-4 text-gray-700 hover:text-gray-400 ${
                     router.pathname.includes(label.toLowerCase())
                       ? "font-bold"
                       : "font-light"

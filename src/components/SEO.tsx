@@ -2,8 +2,8 @@ import Head from "next/head";
 import { useRouter } from "next/router";
 
 const defaultMeta = {
-  title: `Dean's Award FMUI`,
-  siteName: `Dean's Award FMUI`,
+  title: `ReplaceTemplateTitle`,
+  siteName: `ReplaceTemplateTitle`,
   description: "Coming really soon",
   url: "https://deansawardfmui.com",
   image: "https://deansawardfmui.com/favicon/android-chrome-192x192.png",
@@ -34,9 +34,9 @@ export default function Seo(props: SeoProps) {
   return (
     <Head>
       {props.title ? (
-        <title>{props.title} | Dean's Award FMUI </title>
+        <title>{props.title} | ReplaceTemplateTitle </title>
       ) : (
-        <title>Dean's Award FMUI</title>
+        <title>ReplaceTemplateTitle</title>
       )}
       <meta name="robots" content={meta.robots} />
       <meta content={meta.description} name="description" />
