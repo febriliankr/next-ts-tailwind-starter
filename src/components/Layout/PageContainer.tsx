@@ -3,7 +3,7 @@ import React, { ReactElement } from "react";
 
 interface Props {
   title?: string;
-  children: ReactElement | string;
+  children: ReactElement | ReactElement[] | string;
   className?: string;
 }
 
