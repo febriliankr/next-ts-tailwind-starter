@@ -2,7 +2,7 @@ import Axios from "axios";
 
 const api = Axios.create({
   baseURL: `${process.env.NEXT_PUBLIC_API_URI}`,
-  withCredentials: true,
+  // withCredentials: true,
 });
 
 export type ApiResponse = {
