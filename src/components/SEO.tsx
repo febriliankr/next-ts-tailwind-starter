@@ -5,8 +5,8 @@ const defaultMeta = {
   title: `ReplaceTemplateTitle`,
   siteName: `ReplaceTemplateTitle`,
   description: "Coming really soon",
-  url: "https://deansawardfmui.com",
-  image: "https://deansawardfmui.com/favicon/android-chrome-192x192.png",
+  url: "", //"https://deansawardfmui.com",
+  image: "", // "https://deansawardfmui.com/favicon/android-chrome-192x192.png",
   type: "website",
   robots: "follow, index",
 };

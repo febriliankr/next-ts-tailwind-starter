@@ -18,11 +18,7 @@ function Navbar({}: Props): ReactElement {
         <li>
           <Link href="/">
             <a className="font-bold text-gray-700">
-              <img
-                src="/assets/Logo/LogoHorizontal.svg"
-                alt="ReplaceTemplateTitle"
-                className=""
-              />
+              <img src="/assets/Logo/LogoHorizontal.svg" className="" />
             </a>
           </Link>
         </li>
